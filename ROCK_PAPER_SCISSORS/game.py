@@ -16,9 +16,6 @@ class Albatross:
         
         return Albatross
 
-items = ['Rock', 'Paper', 'Scissors', 'Rock', 'Paper', 'Scissors', 'Rock', 'Paper', 'Scissors', 'Rock', 'Paper', 'Scissors', 'Rock', 'Paper', 'Scissors', 'Rock', 'Paper', 'Scissors']
-chosen_item = choice(items)
-Albatross_choice = chosen_item
 
 game = input(f'{username} input your desired game card: ')
 user_choice = game
@@ -27,118 +24,63 @@ Albatross_count = 0
 game_count = (Albatross_count + user_count)
 
 
-if user_choice == 'Rock' and Albatross_choice == 'Rock':
-    user_count += 0
-    Albatross_count += 0
-    print('this round is a draw')
-    print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
-
-elif user_choice == 'Paper' and Albatross_choice == 'Paper':
-    user_count += 0
-    Albatross_count += 0
-    print('this round is a draw')
-    print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
-
-elif user_choice == 'Scissors' and Albatross_choice == 'Scissors':
-    user_count += 0
-    Albatross_count += 0
-    print('this round is a draw')
-    print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
-
-elif user_choice == 'Scissors' and Albatross_choice == 'Rock':
-    user_count += 0
-    Albatross_count += 1
-    print(f'{system_name} wins')
-    print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
-
-elif user_choice == 'Rock' and Albatross_choice == 'Scissors':
-    user_count += 1
-    Albatross_count += 0
-    print(f'{username} wins')
-    print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
-
-elif user_choice == 'Scissors' and Albatross_choice == 'Paper':
-    user_count += 1
-    Albatross_count += 0
-    print(f'{username} wins')
-    print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
-    
-elif user_choice == 'Paper' and Albatross_choice == 'Scissors':
-    user_count += 0
-    Albatross_count += 1
-    print(f'{system_name} wins')
-    print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
-
-elif user_choice == 'Rock' and Albatross_choice == 'Paper':
-    user_count += 0
-    Albatross_count += 1
-    print(f'{system_name} wins')
-    print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
-
-elif user_choice == 'Paper' and Albatross_choice == 'Rock':
-    user_count += 1
-    Albatross_count += 0
-    print(f'{username} wins')
-    print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
-
 while game_count != 10:
-    
-    items = ['Rock', 'Paper', 'Scissors', 'Rock', 'Paper', 'Scissors', 'Rock', 'Paper', 'Scissors', 'Rock', 'Paper', 'Scissors', 'Rock', 'Paper', 'Scissors', 'Rock', 'Paper', 'Scissors']
+    items = ['Rock', 'Paper', 'Scissors'] * int(9)
     chosen_item = choice(items)
     Albatross_choice = chosen_item
     game = input(f'{username} input your desired game card: ')
     user_choice = game
-    game_count = (Albatross_count + user_count)
 
+    game_count = (Albatross_count + user_count)
     if user_choice == 'Rock' and Albatross_choice == 'Rock':
         user_count += 0
         Albatross_count += 0
         print('this round is a draw')
         print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
 
-    if user_choice == 'Paper' and Albatross_choice == 'Paper':
+    elif user_choice == 'Paper' and Albatross_choice == 'Paper':
         user_count += 0
         Albatross_count += 0
         print('this round is a draw')
         print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
 
-    if user_choice == 'Scissors' and Albatross_choice == 'Scissors':
+    elif user_choice == 'Scissors' and Albatross_choice == 'Scissors':
         user_count += 0
         Albatross_count += 0
         print('this round is a draw')
         print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
 
-    if user_choice == 'Scissors' and Albatross_choice == 'Rock':
+    elif user_choice == 'Scissors' and Albatross_choice == 'Rock':
         user_count += 0
         Albatross_count += 1
         print(f'{system_name} wins')
         print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
 
-    if user_choice == 'Rock' and Albatross_choice == 'Scissors':
+    elif user_choice == 'Rock' and Albatross_choice == 'Scissors':
         user_count += 1
         Albatross_count += 0
         print(f'{username} wins')
         print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
 
-    if user_choice == 'Scissors' and Albatross_choice == 'Paper':
+    elif user_choice == 'Scissors' and Albatross_choice == 'Paper':
         user_count += 1
         Albatross_count += 0
         print(f'{username} wins')
         print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
         
-    if user_choice == 'Paper' and Albatross_choice == 'Scissors':
+    elif user_choice == 'Paper' and Albatross_choice == 'Scissors':
         user_count += 0
         Albatross_count += 1
         print(f'{system_name} wins')
         print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
 
-    if user_choice == 'Rock' and Albatross_choice == 'Paper':
+    elif user_choice == 'Rock' and Albatross_choice == 'Paper':
         user_count += 0
         Albatross_count += 1
         print(f'{system_name} wins')
         print(f'the scores are Albatross:{Albatross_count}, {username}:{user_count}')
 
-    if user_choice == 'Paper' and Albatross_choice == 'Rock':
+    elif user_choice == 'Paper' and Albatross_choice == 'Rock':
         user_count += 1
         Albatross_count += 0
         print(f'{username} wins')
@@ -160,11 +102,11 @@ while game_count != 10:
         ''')
 
     elif game_count == 10 and Albatross_count < user_count:
-        print((f'''
+        print(f'''
         That was a superb one! {username}.
         You have won against {system_name},
         and the total score is
         {game_count}
-        '''))
+        ''')
 
         break
