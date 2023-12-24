@@ -1,0 +1,51 @@
+After joining the shadow garden
+the player will start training and due to delta's way hell be training with live creatures
+the things that will be dropped by the creatures will include:
+	Swords
+	Magical Herbs
+	Magical Pills
+	Binding Power
+	Special Skill powers
+	Power Blast
+	Ultimate power kill
+	
+He will meet with different people and enemies during his training
+1. 3 shadow garden members: 
+2. Zeta 
+3. Lord shadow Himself 
+4. Beta 
+4. Epsilon
+
+Enemies:
+1. The monsters
+2. Cult of diablos assassins
+
+
+Explore locations:
+1. Training ground
+	A single wolf
+	A den of a mother wolf
+	A pack of 10 wolves
+	A werewolf
+	A pack of 10 werewolves
+	3 vampires
+	15 Devil bats
+	3 Monster bears
+	1 Monster dragon
+	
+2. Secret mission to hunt down thugs
+	50 thugs
+	
+3. Lawless city
+	Delta takes care of this
+	If the user is angry for not fighting then take him to fight the blood queen,but she must be crazy strong. This should force the user to retreat but if he dosen\t want the delta will save him when he is on the brink of death and after then lord shadow arrives.
+	If not they return to the base of the shadow garden
+	
+4. Oriana Kingdom
+	Here the user will protect queen Rose with 5 other shadow garden members
+	this is also where the final battle with the cult of diablos will take place.
+
+End of story
+
+didnt go for hunt
+cr_stats.cr_pl_stat()
